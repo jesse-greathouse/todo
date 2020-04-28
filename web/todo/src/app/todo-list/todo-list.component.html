@@ -1,0 +1,19 @@
+<div>
+    <label>New Task:
+        <input #todoDescription />
+    </label>
+    <button (click)="add(todoDescription.value); todoDescription.value=''">
+        add
+    </button>
+</div>
+
+<ul class="todo">
+    <li *ngFor="let item of items" >
+        <a routerLink="/detail/{{item.Id}}">
+            <span class="badge">{{ item.Priority }}</span>
+            {{ item.Description }}
+        </a>
+        <button class="delete" title="delete hero"
+            (click)="delete(item)">x</button>
+    </li>
+</ul>

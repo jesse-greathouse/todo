@@ -1,0 +1,1 @@
+UPDATE `item` SET `description` = ?, `priority` = ?, `completed` = ? WHERE (`id` = ?);
