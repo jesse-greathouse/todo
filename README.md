@@ -17,9 +17,9 @@ To get the detailed instructions, on how to install golang, [check here](https:/
 `$ bin/install.sh`
 
 ## Configuring the app
-`$ bin/configure.sh`
+`$ bin/config.sh`
     -- or --
-`$ bin/configure-osx.sh` -- if you're on macOS
+`$ bin/config-osx.sh` -- if you're on macOS
 
 This is an interactive script that will prompt you for all of the required configuration strings to run the app.
 
