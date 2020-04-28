@@ -24,10 +24,6 @@ type Response struct {
 	Result string
 }
 
-type StringQuery struct {
-	Query string
-}
-
 type FileQuery struct {
 	File  string
 	Query string
